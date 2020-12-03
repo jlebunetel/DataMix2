@@ -13,6 +13,8 @@ _to do..._
 * une carte à microcontrôleur Arduino UNO rev3 ;
 * un servomoteur ;
 * un ruban de LEDs multicolores (NeoPixel) ;
+* un condensateur 1000 µF
+* une résistance 470 Ω
 * une carte lecteur MP3 ;
 * une petite enceinte ;
 * une carte micro SD ;
@@ -30,11 +32,11 @@ _to do..._
 | 2 | - | - | - | - |
 | 3 | - | - | - | - |
 | 4 | - | - | - | - |
-| 5 | - | - | - | - |
+| 5 | - | - | - | X |
 | 6 | - | - | - | - |
 | 7 | - | - | - | - |
-| 8 | - | - | - | - |
-| 9 | - | - | - | - |
+| 8 | - | DATA | - | - |
+| 9 | - | - | DATA | - |
 | 10 | - | - | - | - |
 | 11 | - | - | - | - |
 | 12 | - | - | - | - |
@@ -45,10 +47,10 @@ _to do..._
 | A3 | - | - | - | - |
 | A4 | - | - | - | - |
 | A5 | - | - | - | - |
-| +5V | - | - | - | - |
-| GND | - | - | - | - |
+| +5V | +5V | +5V | +5V | X |
+| GND | GND | GND | GND | - |
 
-![](images/leds_Wiring-Diagram.png)
+![](images/team3_demo_bb.png)
 
 ### Code Arduino
 
